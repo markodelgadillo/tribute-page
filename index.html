@@ -2,11 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-grid.css">
     <title>Brendan Eich</title>
   </head>
-  <body>
-    <section class="container bg-light px-4 pt-5">
+  <body class="bg-light">
+    <section class="container px-4 pt-5">
       <article class="alert alert-danger mt-6">
         <header>
           <h1 class="text-center">Brendan Eich</h1>
@@ -25,9 +26,11 @@
         <p class="lead">In 1995, Brendan started at Netscape Communications Corporation. There, he was tasked with developing a scripting language for the Netscape browswer which is how he went on to create what is now known as JavaScript. It was first called Mocha and later LiveScript. It took Brendan only 10 days to develop the scripting language.</p>
       </article>
 
-      <article class="container col-8  mt-5">
-        <span class="alert alert-primary h2 col-lg-center">Time line for the evolution of Javascript</span>
-        <ul class="col-lg-center list-group mt-5">
+      <article class="container col-8 mt-5">
+        <div class="row">
+        <span class="alert alert-primary offset-md-3 text-nowrap">The evolution of Javascript</span>
+      </div>
+        <ul class="row col-lg-center list-group mt-5">
           <li class="list-group-item list-group-item-warning">
             <span class="h2">1995</span>
             <span>JavaScript is born</span>
@@ -59,7 +62,7 @@
         </ul>
       </article>
 
-      <footer><a class="alert-link" href="https://en.wikipedia.org/wiki/Brendan_Eich">Click here for more information on Brendan Eich</a></footer>
+      <footer><p class="text-center mt-5"><a class="alert-link" href="https://en.wikipedia.org/wiki/Brendan_Eich">Click here for more information on Brendan Eich</a></p></footer>
 
     </section>
     <footer class="container border border-dark border-left-0 border-right-0 border-bottom-0 mt-4">
